@@ -33,7 +33,9 @@ int main(){
         	printf("不合规范\n");
         	break; 
         }
-        if(out()==0){
+        int end;
+		end=out(); 
+        if( end ==0){
         	printf("结束");
         	break;
 		}
